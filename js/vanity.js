@@ -1,0 +1,2 @@
+$(document).ready(function(){var INITIAL=0;var counterList=[{"id":"count-events","to":$("#count-events").attr("data-to")},{"id":"count-organiser","to":$("#count-organiser").attr("data-to")},{"id":"count-cities","to":$("#count-cities").attr("data-to")}]
+for(i in counterList){new CountUp(counterList[i].id,INITIAL,counterList[i].to).start();}});
